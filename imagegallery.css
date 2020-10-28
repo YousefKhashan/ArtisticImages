@@ -1,0 +1,50 @@
+body {
+    font-size: 1.20rem;
+    font-family: raleway;
+    padding-top: 30px;
+    background-image: url(https://image.freepik.com/free-vector/watercolor-background-with-golden-foil_23-2148645205.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+  }
+
+.jumbotron {
+    margin-top: 50px;
+    border: 2px solid lightyellow;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.incercare {
+    padding-bottom: 24.5px;
+}
+
+.disimg {
+    margin-right: 15px;
+}
+
+.navbar {
+    overflow: visible;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    position: fixed;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.navigate{
+    overflow: visible;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index:300;
+}
+
+.container {
+    max-width: 1300px;
+}

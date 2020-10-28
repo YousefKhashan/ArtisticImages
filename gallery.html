@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="imagegallery.css">
+    <title>Gallery Image</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top navigate">
+    
+        <a class="navbar-brand" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-image" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+        </svg> IMG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+    
+      <!-- <nav class="navbar navbar-expand-lg navbar-inverse bg-dark" >
+        <div class="container">
+        <a href="#" class="navbar-brand">IMGS</a>
+        <div class="navbar-header">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        
+          </button>
+        </div>
+
+        
+            <div class="nav navbar-collapse" id="navbarSupportedContent">           
+                <ul class="nav navbar-nav mr-auto" >
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">        
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> Login</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> Sign up</a>
+                    </li>
+                </ul>
+            </div>              
+        </div> 
+</nav> -->
+
+<!-- NAVBAR ENDING-->
+
+    <div class="container main">
+        <div class="jumbotron">
+            <h1> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+                <path fill-rule="evenodd" d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                <path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+              </svg>
+              IMAGE GALLERY
+            </h1>
+            <p>A bunch of beautiful images!</p>
+        </div>
+        <div class="row ">
+            <div class="col-lg-4 col-md-6 incercare">
+                <div class="img-thumbnail">
+                    <img class="img-fluid" src="http://i.imgur.com/qK42fUu.jpg">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 incercare">
+                <div class="img-thumbnail">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 incercare">
+                <div class="img-thumbnail">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 incercare">
+                <div class="img-thumbnail">
+                    <img class="img-fluid" src=" https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 incercare">
+                <div class="img-thumbnail">
+                    <img class="img-fluid" src=" https://images.unsplash.com/photo-1444090542259-0af8fa96557e?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 incercare">
+                <div class="img-thumbnail">
+                    <img class="img-fluid" src=" https://images.unsplash.com/photo-1434543177303-ef2cc7707e0d?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 incercare">
+                <div class="img-thumbnail">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1436262513933-a0b06755c784?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 incercare">
+                <div class="img-thumbnail">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1439396087961-98bc12c21176?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 incercare">
+                <div class="img-thumbnail">
+                    <img class="img-fluid" src="https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
